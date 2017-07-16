@@ -75,8 +75,8 @@ for cluster_num in cluster_nums:
         clusterized_image_midcolor[i // stride, i % stride] = mean_colors[cluster]
     
     # Show images colorized
-    # using median color (to the left)
-    # using mean color (to the right)
+    # using median color (left image)
+    # using mean color (right image)
     fig = plt.figure(figsize=(14, 14))
     fig.add_subplot(1,2,1)
     imshow(clusterized_image_median)
@@ -87,8 +87,8 @@ for cluster_num in cluster_nums:
     psnrs_median.append(PSNR_color(image, clusterized_image_median))
 
 # Show PSNR to cluster number graphs for
-# median color image (to the left)
-# mean color image (to the right)
+# median color image (left graph)
+# mean color image (right graph)
 psnr_threshlod = 20.0
 fig = plt.figure()
 fig.add_subplot(1,2,1)
