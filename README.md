@@ -4,5 +4,5 @@
 Полезные ссылки:
 * [Pandas API](http://pandas.pydata.org/pandas-docs/stable/api.html)
 * [Scikit learn API](http://scikit-learn.org/stable/modules/classes.html)
-* [Scikit image API](http://scikit-image.org/docs/stable/api/api.html)
 * [Matplotlib API](https://matplotlib.org/2.0.2/api/index.html)
+* [Scikit image API](http://scikit-image.org/docs/stable/api/api.html)
