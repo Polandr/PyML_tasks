@@ -1,5 +1,5 @@
 import pandas as P
-data_path = 'D:\Programming\Machine Learning\AlgorithmCompositions\RandomForest\\abalone.csv'
+data_path = '.\\abalone.csv'
 data = P.read_csv(data_path)
 data['Sex'] = data['Sex'].map(lambda x: 1 if x == 'M' else (-1 if x == 'F' else 0))
 
