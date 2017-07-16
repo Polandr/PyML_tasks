@@ -1,5 +1,5 @@
 import pandas as P
-data_path = 'D:\Programming\Machine Learning\MetricsTask\\scores.csv'
+data_path = '.\\scores.csv'
 data = P.read_csv(data_path)
 
 true = data['true'].values
