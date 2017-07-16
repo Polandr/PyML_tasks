@@ -13,7 +13,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.8, random_
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import log_loss
 
-best_tree_num = 37 # Got it from previous task as minimal iteration number at learning rate 0.2
+best_tree_num = 37 # Got this value from previous task as minimal iteration number at learning rate 0.2
 clf = RandomForestClassifier(n_estimators=best_tree_num, random_state=241)
 clf.fit(X_train,Y_train)
 Y_pred = clf.predict_proba(X_test)
