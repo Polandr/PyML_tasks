@@ -41,7 +41,7 @@ def gradient_descent(X, Y, k=0.1, C=0.):
 
 # Read data
 import pandas as P
-data_path = 'D:\Programming\Machine Learning\LogisticRegression\\data-logistic.csv'
+data_path = '.\\data-logistic.csv'
 data = P.read_csv(data_path ,header=None, names=['Class','X','Y'])
 X = np.matrix(data.dropna().as_matrix(columns=['X','Y']))
 Y = np.matrix(data.dropna().as_matrix(columns=['Class']))
