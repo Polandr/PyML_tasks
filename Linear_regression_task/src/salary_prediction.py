@@ -1,6 +1,6 @@
 import pandas as P
-data_train_path = 'D:\Programming\Machine Learning\LinearRegression\\salary-train.csv'
-data_test_path = 'D:\Programming\Machine Learning\LinearRegression\\salary-test-mini.csv'
+data_train_path = '.\\salary-train.csv'
+data_test_path = '.\\salary-test-mini.csv'
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import DictVectorizer
