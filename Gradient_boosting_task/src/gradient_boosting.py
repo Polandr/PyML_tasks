@@ -1,5 +1,5 @@
 import pandas as P
-data_path = 'D:\Programming\Machine Learning\AlgorithmCompositions\GradientBoosting\\gbm-data.csv'
+data_path = '.\\gbm-data.csv'
 data = P.read_csv(data_path)
 
 import numpy as np
