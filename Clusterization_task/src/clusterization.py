@@ -21,7 +21,7 @@ def PSNR_color (original, approximation):
     return psnr
     
 from skimage.io import imread
-image_path = 'D:\\Programming\\Machine Learning\\Clusterization\parrots.jpg'
+image_path = '.\\parrots.jpg'
 image = imread(image_path)
 from pylab import imshow
 import matplotlib.pyplot as plt
