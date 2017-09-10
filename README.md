@@ -23,8 +23,8 @@
 
 **В папке временно отсутствует описание задания. В папке данные для обучения алгоритмов представлены в виде архива, поэтому для работы программы сначала их нужно разархивировать.
 
-Полезные ссылки:
-* [Pandas API](http://pandas.pydata.org/pandas-docs/stable/api.html)
-* [Scikit learn API](http://scikit-learn.org/stable/modules/classes.html)
-* [Matplotlib API](https://matplotlib.org/2.0.2/api/index.html)
-* [Scikit image API](http://scikit-image.org/docs/stable/api/api.html)
+Используемые библиотеки:
+* [Pandas](http://pandas.pydata.org/pandas-docs/stable/api.html)
+* [Scikit learn](http://scikit-learn.org/stable/modules/classes.html)
+* [Matplotlib](https://matplotlib.org/2.0.2/api/index.html)
+* [Scikit image](http://scikit-image.org/docs/stable/api/api.html)
